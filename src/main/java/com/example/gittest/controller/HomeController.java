@@ -11,4 +11,10 @@ public class HomeController {
         return "index";
     }
 
+
+    @GetMapping("/shout")
+    public String shout(){
+	return "shout";
+    }
+
 }
