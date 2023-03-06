@@ -17,4 +17,9 @@ public class HomeController {
 	return "shout";
     }
 
+    @GetMapping("/run")
+    public String run(){
+        return "run";
+    }
+
 }
